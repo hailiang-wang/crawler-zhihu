@@ -1,0 +1,31 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ava": "^0.22.0",
+    "cheerio": "^1.0.0-rc.2",
+    "crawler": "~0.4.3",
+    "cron": "~1.0.9",
+    "ejs": "*",
+    "express": "3.4.7",
+    "gridfs-stream": "~1.1.0",
+    "lodash": "~3.6.0",
+    "log4js": "~0.6.22",
+    "minimatch": "~2.0.4",
+    "mongoose": "~4.0.1",
+    "mongoose-auto-increment": "~4.0.0",
+    "monq": "~0.3.1",
+    "optimist": "~0.6.1",
+    "q": "~1.2.0",
+    "shortid": "~2.2.1"
+  },
+  "devDependencies": {
+    "assert": "~1.3.0",
+    "should": "~5.2.0",
+    "mocha": "~2.2.1"
+  }
+}
